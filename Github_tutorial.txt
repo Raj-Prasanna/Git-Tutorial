@@ -24,3 +24,5 @@ How to create a local repo:
 How to create a new branch locally:
 1. git checkout -b <branch name>
 
+Tips:
+1. if u didnt mention <-m "message"> while committing, it will take it to a text editor where we give the message. to come out of the editor use":x! and ENTER"
