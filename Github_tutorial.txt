@@ -1,0 +1,26 @@
+What is git?
+Git is a distributed version control sytem(DVCS). 
+Distributed because local repos can be maintained. 
+It can maintain all the versions of a document.
+
+How to start with git?
+1. create a github account 
+2. intall git bash 
+
+Terminologies:
+master branch - this is the main branch of the repo. 
+branch - we can create a sub branch for a parallel development of software. 
+merge - once the deevelopment on the branch is done, it can be merged with the master branch
+collaborators - individual who do not have access to the repo can contribute to the repo by forking the repo. after contributing he van give apuu rrequest to the repo owner. the repo owner can evaluate the contribution and can merge the contribution to the repo.  
+
+How to create a local repo:
+1. clone the repository locally using (git clone <url of the repo>)
+2. place the file to be imported to github in the folder
+3. git status
+4. git add .
+5. git commit -m "some message"
+6. git push origin master
+
+How to create a new branch locally:
+1. git checkout -b <branch name>
+
